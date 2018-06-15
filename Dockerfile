@@ -11,6 +11,7 @@ ADD pom.xml /code/pom.xml
 
 # Adding source, compile and package into a fat jar
 ADD src /code/src
+RUN ["mvn", "help:effective-pom"]
 RUN ["mvn", "clean", "install"]
 
 RUN ["ls", "/code/target"]
