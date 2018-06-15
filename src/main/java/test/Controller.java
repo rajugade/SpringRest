@@ -15,8 +15,8 @@ public class Controller {
 		Employee emp = new Employee();
 		  emp.setName("emp1");
 		  emp.setDesignation("manager");
-		  emp.setEmpId("2");
-		  emp.setSalary(3000);
+		  emp.setEmpId("3");
+		  emp.setSalary(30000);
 
 		  return emp;
 	}
